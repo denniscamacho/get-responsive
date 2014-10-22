@@ -1,0 +1,55 @@
+
+.header-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  background: #2D3339;
+  padding-bottom: 10.41666667%; // 100px
+
+  .logo {
+    padding-top: 10.41666667%; // 100px
+    float: left;
+  }
+
+  nav {
+    float: right;
+    margin-top: 14.0625%; // 135px
+
+    a {
+      display: inline-block;
+      text-decoration: none;
+      color: $white;
+      font-size: $base__font-body;
+      margin-left: 20px; // I couldnt get this to scale when using percentages.
+      font-weight: $font-weight--normal;
+      font-family: $font-family--primary;
+      text-transform: uppercase;
+      &:hover {
+        color: $color-hover;
+      }
+    }
+  }
+
+  h1 {
+    font-family: $font-family--primary;
+    color: $color-primary;
+    font-weight: $font-weight--light;
+    font-size: $base__font-headline;
+    text-align: center;
+    margin: 0px;
+    padding-top: 08.333333333%; // 80px
+    clear: both;
+  }
+
+  .slogan {
+    font-family: $font-family--primary;
+    font-size: $base__font-body;
+    font-weight: $font-weight--normal;
+    color: $white;
+    text-align: center;
+    margin: 0px;
+    padding-top: 2.083333333%; // 20px
+  }
+}

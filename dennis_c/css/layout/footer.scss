@@ -1,0 +1,19 @@
+footer {
+  background: $white;
+  text-align: center;
+  // border: solid 1px red;
+
+  .footerContent {
+
+    p {
+      display: inline-block;
+      font-family: $font-family--primary;
+      font-weight: $font-weight--normal;
+      font-size: $base__font-body;
+      margin: 0px;
+      padding: 20px 0 20px 0;
+    }
+
+  }
+
+}

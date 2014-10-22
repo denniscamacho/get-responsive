@@ -1,0 +1,42 @@
+//  Font Stack
+
+$font-url--google           : 'http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900';
+
+$font-family--primary       : 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-family--secondary     : 'Helvetica Neue', Helvetica, sans-serif;
+
+//  Font Weights
+
+$font-weight--thin          : 100;
+$font-weight--light         : 300;
+$font-weight--normal        : 400;
+$font-weight--bold          : 700;
+$font-weight--ultra-bold    : 900;
+
+//  Base Colors
+
+$white                      : #fff;
+$black                      : #000;
+
+$manly-pink                 : #E63F68;
+$space-blue                 : #2D3339;
+
+
+//  Color Usage
+
+$color-primary              : $manly-pink;
+
+//  Text
+
+$base__font-headline        : 4em; // 64px
+$base__font-subheadline     : 1em; // 24px
+$base__font-body            : 1em; // 16px
+$base__line                 : 1em; // 16px
+
+//  Background Colors
+$bg-color-section           : #f8f8f8;
+
+$color-hover                : #969696;
+
+// Media Queries
+

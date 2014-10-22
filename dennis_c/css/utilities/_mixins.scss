@@ -1,0 +1,20 @@
+@media screen and (max-width: 480px) {
+  nav,
+  h1,
+  .logo,
+  .slogan {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  nav,
+  .logo,
+  h1,
+  .slogan {
+    width: 100%;
+    text-align: center;
+  }
+}
+

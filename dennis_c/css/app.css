@@ -1,0 +1,133 @@
+@media screen and (max-width: 480px) {
+  nav,
+  h1,
+  .logo,
+  .slogan {
+    width: 100%;
+    text-align: center; } }
+@media screen and (max-width: 1024px) {
+  nav,
+  .logo,
+  h1,
+  .slogan {
+    width: 100%;
+    text-align: center; } }
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.header-container {
+  max-width: 960px;
+  margin: 0 auto; }
+
+header {
+  background: #2D3339;
+  padding-bottom: 10.41666667%; }
+  header .logo {
+    padding-top: 10.41666667%;
+    float: left; }
+  header nav {
+    float: right;
+    margin-top: 14.0625%; }
+    header nav a {
+      display: inline-block;
+      text-decoration: none;
+      color: #fff;
+      font-size: 1em;
+      margin-left: 20px;
+      font-weight: 400;
+      font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      text-transform: uppercase; }
+      header nav a:hover {
+        color: #969696; }
+  header h1 {
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #E63F68;
+    font-weight: 300;
+    font-size: 4em;
+    text-align: center;
+    margin: 0px;
+    padding-top: 08.333333333%;
+    clear: both; }
+  header .slogan {
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+    padding-top: 2.083333333%; }
+
+footer {
+  background: #fff;
+  text-align: center; }
+  footer .footerContent p {
+    display: inline-block;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    margin: 0px;
+    padding: 20px 0 20px 0; }
+
+.work {
+  background: #f8f8f8;
+  text-align: center;
+  padding-bottom: 10.41666667%; }
+  .work h2 {
+    font-size: 1em;
+    font-weight: 700;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #2D3339;
+    text-transform: uppercase;
+    padding-top: 10.41666667%;
+    padding-bottom: 5.208333333%;
+    display: inline-block; }
+  .work ul {
+    list-style: none; }
+    .work ul li {
+      display: inline; }
+
+/*# sourceMappingURL=app.css.map */

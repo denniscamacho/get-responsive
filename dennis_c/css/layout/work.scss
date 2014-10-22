@@ -1,0 +1,26 @@
+.work {
+  background: $bg-color-section;
+  text-align: center;
+  padding-bottom: 10.41666667%; // 100px
+
+h2 {
+    font-size: $base__font-subheadline;
+    font-weight: $font-weight--bold;
+    font-family: $font-family--primary;
+    color: $space-blue;
+    text-transform: uppercase;
+    padding-top: 10.41666667%; // 100px
+    padding-bottom: 5.208333333%; // 50px
+    display: inline-block;
+}
+
+  ul {
+    list-style: none;
+
+    li {
+      display: inline;
+    }
+  }
+}
+
+
